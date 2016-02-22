@@ -32,12 +32,12 @@ fips    SCC     Pollutant Emissions type            year
 20      09001   10200504  PM25-PRI  0.388 POINT     1999
 24      09001   10200602  PM25-PRI  1.490 POINT     1999
 
-*𝚏𝚒𝚙𝚜: A five-digit number (represented as a string) indicating the U.S. county
-*𝚂𝙲𝙲: The name of the source as indicated by a digit string (see source code classification table)
-*𝙿𝚘𝚕𝚕𝚞𝚝𝚊𝚗𝚝: A string indicating the pollutant
-*𝙴𝚖𝚒𝚜𝚜𝚒𝚘𝚗𝚜: Amount of PM2.5 emitted, in tons
-*𝚝𝚢𝚙𝚎: The type of source (point, non-point, on-road, or non-road)
-*𝚢𝚎𝚊𝚛: The year of emissions recorded
+1. 𝚏𝚒𝚙𝚜: A five-digit number (represented as a string) indicating the U.S. county
+2. 𝚂𝙲𝙲: The name of the source as indicated by a digit string (see source code classification table)
+3. 𝙿𝚘𝚕𝚕𝚞𝚝𝚊𝚗𝚝: A string indicating the pollutant
+4. 𝙴𝚖𝚒𝚜𝚜𝚒𝚘𝚗𝚜: Amount of PM2.5 emitted, in tons
+5. 𝚝𝚢𝚙𝚎: The type of source (point, non-point, on-road, or non-road)
+6. 𝚢𝚎𝚊𝚛: The year of emissions recorded
 
 Source Classification Code Table (𝚂𝚘𝚞𝚛𝚌𝚎_𝙲𝚕𝚊𝚜𝚜𝚒𝚏𝚒𝚌𝚊𝚝𝚒𝚘𝚗_𝙲𝚘𝚍𝚎.𝚛𝚍𝚜): This table provides a mapping from the SCC digit strings in the Emissions table to the actual name of the PM2.5 source. The sources are categorized in a few different ways from more general to more specific and you may choose to explore whatever categories you think are most useful. For example, source “10100101” is known as “Ext Comb /Electric Gen /Anthracite Coal /Pulverized Coal”.
 
@@ -67,7 +67,7 @@ Compare emissions from motor vehicle sources in Baltimore City with emissions fr
 
 For each plot you should
 
-*Construct the plot and save it to a PNG file.
-*Create a separate R code file (𝚙𝚕𝚘𝚝𝟷.𝚁, 𝚙𝚕𝚘𝚝𝟸.𝚁, etc.) that constructs the corresponding plot, i.e. code in plot1.R constructs the plot1.png plot. Your code file should include code for reading the data so that the plot can be fully reproduced. You must also include the code that creates the PNG file. Only include the code for a single plot (i.e. 𝚙𝚕𝚘𝚝𝟷.𝚁 should only include code for producing 𝚙𝚕𝚘𝚝𝟷.𝚙𝚗𝚐)
-*Upload the PNG file on the Assignment submission page
-*Copy and paste the R code from the corresponding R file into the text box at the appropriate point in the peer assessment.
+1. Construct the plot and save it to a PNG file.
+2. Create a separate R code file (𝚙𝚕𝚘𝚝𝟷.𝚁, 𝚙𝚕𝚘𝚝𝟸.𝚁, etc.) that constructs the corresponding plot, i.e. code in plot1.R constructs the plot1.png plot. Your code file should include code for reading the data so that the plot can be fully reproduced. You must also include the code that creates the PNG file. Only include the code for a single plot (i.e. 𝚙𝚕𝚘𝚝𝟷.𝚁 should only include code for producing 𝚙𝚕𝚘𝚝𝟷.𝚙𝚗𝚐)
+3. Upload the PNG file on the Assignment submission page
+4. Copy and paste the R code from the corresponding R file into the text box at the appropriate point in the peer assessment.
