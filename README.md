@@ -9,12 +9,12 @@ For each year and for each type of PM source, the NEI records how many tons of P
 
 ##Review criteria 
 
-For each question
+###For each question
 
 Does the plot appear to address the question being asked?
 Does the plot appear to address the question being asked?
 
-Data 
+###Data 
 
 The data for this assignment are available from the course web site as a single zip file:
 
