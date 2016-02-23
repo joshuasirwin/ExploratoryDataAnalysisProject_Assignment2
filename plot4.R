@@ -1,9 +1,6 @@
 # Exploratory Data Analysis - Assignment 2 - Q. #4
 # Josh Irwin
 
-#Install ggplot2
-install.packages("ggplot2")
-
 # Load ggplot2 library
 library("ggplot2")
 
