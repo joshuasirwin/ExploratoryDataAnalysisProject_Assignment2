@@ -4,6 +4,8 @@
 # Load ggplot2 library
 library("ggplot2")
 
+library("plyr")
+
 # Set Working Directory
 setwd("/Users/Josh/GitHub/ExploratoryDataAnalysisProject_Assignment2")
 
